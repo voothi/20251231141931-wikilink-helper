@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Wikilink Helper",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Detects wikilinks, improves readability, and allows quick copying of target IDs or descriptions.",
   "permissions": [
     "storage",
@@ -24,8 +24,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://github.com/*",
-        "*://gist.github.com/*"
+        "<all_urls>"
       ],
       "js": [
         "src/core/settings.js",

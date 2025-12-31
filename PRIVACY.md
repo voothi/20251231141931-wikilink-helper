@@ -7,7 +7,7 @@ The "Wikilink Helper" extension **does not collect, store, or transmit** any per
 
 ## 2. Data Usage
 - **Local Settings**: User preferences (Link Format, Copy Mode, Click Action) are stored locally on your device using the Chrome Storage API (`chrome.storage.local`).
-- **Web Content Access**: The extension accesses the text content of web pages you visit (specifically `github.com` and `gist.github.com`) solely for the purpose of identifying and formatting wikilinks (`[[...]]`). This processing happens entirely within your browser.
+- **Web Content Access**: The extension accesses the text content of **all web pages you visit** solely for the purpose of identifying and formatting wikilinks (`[[...]]`). This processing happens entirely within your browser.
 - **Clipboard**: The extension writes to your clipboard (`clipboardWrite` permission) only when you explicitly click a wikilink or invoke a copy action.
 
 ## 3. Third-Party Services
