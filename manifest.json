@@ -17,7 +17,11 @@
         "<all_urls>"
       ],
       "js": [
-        "content.js"
+        "src/core/settings.js",
+        "src/core/parser.js",
+        "src/handlers/base.js",
+        "src/handlers/github.js",
+        "src/main.js"
       ],
       "css": [
         "styles.css"
