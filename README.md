@@ -29,7 +29,7 @@ This Chrome extension finds wikilink patterns like `[[20251231140239-target-page
   - **Copy Text**: `Displayed Text`
 - **GitHub Auto-Navigate**: Simulates the 't' key file search workflow on GitHub (toggleable).
 - **Visual Feedback**: Shows a "Copied" toast notification on click.
-- **Privacy First**: Runs entirely locally. Privacy Policy included.
+- **Privacy First**: Runs entirely locally. [Privacy Policy included](PRIVACY.md).
 
 [Return to Top](#wikilink-helper-extension)
 
