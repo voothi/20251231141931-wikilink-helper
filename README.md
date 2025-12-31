@@ -35,12 +35,17 @@ This Chrome extension finds wikilink patterns like `[[20251231140239-target-page
 
 ## Installation
 
-### Load Unpacked (Developer Mode)
-1. Clone or download this repository.
+### Load Unpacked (Recommended for local use)
+1. Clone or download this repository (or unzip the release archive).
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle in the top right).
 4. Click **Load unpacked**.
-5. Select the folder containing `manifest.json`.
+5. Select the extension folder (containing `manifest.json`).
+
+### Install from .CRX (Advanced)
+If you build the `.crx` file using the provided scripts, you can drag and drop it into `chrome://extensions/`.
+**Note:** Chrome may flag self-signed extensions as "Not from the Chrome Web Store" or "Unsafe". This is expected because the extension is signed with a private key (`key.pem`) generated locally, not one trusted by the Web Store.
+- To use it, you may need to accept the warning or use "Load Unpacked" instead.
 
 [Return to Top](#wikilink-helper-extension)
 
