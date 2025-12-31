@@ -22,7 +22,7 @@ pushd "%PROJECT_ROOT%"
 :: Run the python pack script
 :: source is "." (project root)
 :: output is to dist/...
-python "%SCRIPTS_DIR%pack_crx.py" . "%DIST_DIR%\wikilink-helper-1.3.0.crx" --key "%KEY_FILE%"
+python "%SCRIPTS_DIR%pack_crx.py" . "%DIST_DIR%\wikilink-helper.crx" --key "%KEY_FILE%"
 
 if %ERRORLEVEL% EQU 0 (
     echo Build successful!

@@ -1,4 +1,11 @@
-# Release Notes
+
+## v1.3.2 (2025-12-31)
+**Dark Mode Fixes**
+
+- **Fix**: Resolved issue where wikilinks were invisible on dark-themed websites.
+- **Change**: Links now inherit the native website color and style (using `<a>` tags instead of `<span>`).
+- **Improvement**: Underline color adapts dynamically to match the text color.
+
 
 ## v1.3.0 (2025-12-31)
 **GitHub Automation & Icons**
