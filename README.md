@@ -1,6 +1,6 @@
 # Wikilink Helper Extension
 
-[![Version](https://img.shields.io/badge/version-v1.3.0-blue)](https://github.com/voothi/20251231141931-wikilink-helper)
+[![Version](https://img.shields.io/badge/version-v1.3.2-blue)](https://github.com/voothi/20251231141931-wikilink-helper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Detects wikilinks on web pages (e.g., GitHub), displays them readably, and allows quick copying of target IDs or descriptions for easy navigation and searching.
@@ -72,7 +72,7 @@ To build the extension locally (generates `.crx` and `.zip` in `dist/`):
 - **Windows**: Run `scripts\build.cmd`
 - **Linux/macOS**: Run `scripts/build.sh`
 
-See [PUBLISHING.md](PUBLISHING.md) for instructions on how to publish to the Chrome Web Store.
+See [PUBLISHING.md](docs/PUBLISHING.md) for instructions on how to publish to the Chrome Web Store.
 
 ## License
 MIT License. See LICENSE file for details.
