@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Wikilink Helper",
-  "version": "1.3.2",
+  "version": "1.3.4",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxqLdGtLnZUG9ZRXXcKIgxPeEFzfJWDFmSQ4ScnxQDwpA+AMXC8ghwvdYg1ADIBuhvtB2d1yEMiWxfDGXaHaEUuVRP6twIYV1bqhNKbWZAvxJXrb9S0hSWM0T3jxe7UtDhq5Fdl8uaPSt9CiNn3c8BUGrVmx7aM0ekiLfnJV+h8t2Yiqy61+voD31yo6cO6o3UDGblet0LClrYspgsSUnJfgg1NmEb+lqghmwUgFICj3qtcoF9DLpQsy5CHAs24QAC2LOO2M20bU5KQmBSJcL0xgK2MeR5P5LeECDDFjx2SVc5rTxiDK4s0A0ZmUzUYfoa4jO+zlcdW5PSLmIZ2JBHwIDAQAB",
   "description": "Detects wikilinks, improves readability, and allows quick copying of target IDs or descriptions.",
   "permissions": [
     "storage",
