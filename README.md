@@ -11,6 +11,7 @@ Detects wikilinks on web pages (e.g., GitHub), displays them readably, and allow
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Privacy & Site Access](#privacy--site-access)
 - [Kardenwort](#kardenwort)
 - [License](#license)
 
@@ -65,6 +66,22 @@ This Chrome extension finds wikilink patterns like `[[20251231140239-target-page
    - Select your preferred copy mode (Target ID, ID + Description, or Description Only).
    - **Click Action**: Choose between "Copy to Clipboard" or "Auto-Navigate" (GitHub only).
    - Future clicks will respect this setting.
+
+[Return to Top](#wikilink-helper-extension)
+
+## Privacy & Site Access
+
+You can control exactly which websites this extension can access:
+
+1. **Right-click** the extension icon in your toolbar.
+2. Select **"This can read and change site data"**.
+3. Choose your preferred level of access:
+    - **When you click the extension**: (Recommended) The extension only runs when you explicitly click it.
+    - **On [specific site]**: Limited only to the current domain (e.g., `github.com`).
+    - **On all sites**: Standard behavior.
+
+> [!TIP]
+> For maximum privacy, set access to **"When you click the extension"**. You can then easily switch to a specific site if you use it frequently.
 
 [Return to Top](#wikilink-helper-extension)
 
