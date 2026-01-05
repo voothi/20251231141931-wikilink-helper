@@ -1,4 +1,11 @@
 
+## v1.3.4 (2026-01-05)
+**Chrome Web Store & Privacy**
+
+- **Feature**: Extension is now available on the [Chrome Web Store](https://chromewebstore.google.com/detail/wikilink-helper/mekebojdkoolcckoibjanfhfckknklhm).
+- **Documentation**: Updated installation guide with Web Store as the recommended method.
+- **Privacy**: Added a guide on how to limit site access (e.g., "On click" or "On specific site") to the README.
+
 ## v1.3.2 (2025-12-31)
 **Dark Mode Fixes**
 
@@ -15,6 +22,7 @@
 - **Update**: Extension now works on **all websites** for standard "Copy" functionality.
 - **Privacy**: Added Privacy Policy (`PRIVACY.md`) and publishing guide (`PUBLISHING.md`).
 - **DevOps**: Added cross-platform build scripts (`scripts/pack_crx.py`) to generate CRX and ZIP artifacts.
+
 
 ## v1.2.2 (2025-12-31)
 **Link Format Support**

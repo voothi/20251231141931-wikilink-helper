@@ -1,6 +1,6 @@
 # Wikilink Helper Extension
 
-[![Version](https://img.shields.io/badge/version-v1.3.2-blue)](https://github.com/voothi/20251231141931-wikilink-helper)
+[![Version](https://img.shields.io/badge/version-v1.3.4-blue)](https://github.com/voothi/20251231141931-wikilink-helper)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mekebojdkoolcckoibjanfhfckknklhm.svg)](https://chromewebstore.google.com/detail/wikilink-helper/mekebojdkoolcckoibjanfhfckknklhm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
