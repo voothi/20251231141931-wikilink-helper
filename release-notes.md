@@ -5,7 +5,7 @@
 - **Feature**: Extension is now available on the [Chrome Web Store](https://chromewebstore.google.com/detail/wikilink-helper/mekebojdkoolcckoibjanfhfckknklhm).
 - **Documentation**: Updated installation guide with Web Store as the recommended method.
 - **Privacy**: Added a guide on how to limit site access (e.g., "On click" or "On specific site") to the README.
-- **DevOps**: Hardcoded public key in `manifest.json` to synchronize local development ID with the Chrome Web Store ID (`mekebojdkoolcckoibjanfhfckknklhm`).
+- **DevOps**: Cleaned up `manifest.json` for Store compliance (removed `key` field) and updated the build script to handle identity signing professionally. (`mekebojdkoolcckoibjanfhfckknklhm`).
 
 ## v1.3.2 (2025-12-31)
 **Dark Mode Fixes**

@@ -4,7 +4,7 @@ Currently, this extension exists only on your computer. To download it from the 
 
 ## 1. Prepare for Publishing
 The Chrome Web Store accepts a **ZIP file** of your source code, not the `.crx` file we built locally. 
-> **Important**: We have hardcoded the public key in `manifest.json`. This ensures the Web Store version and your local development version **share the same ID**: `mekebojdkoolcckoibjanfhfckknklhm`.
+> **Important**: The Web Store will sign the extension itself. It will assign the official Extension ID (`mekebojdkoolcckoibjanfhfckknklhm`). Our source code `manifest.json` is kept "keyless" to comply with Store requirements.
 
 1. Run the build script to ensure `dist/` is fresh.
 2. Locate `wikilink-helper.zip` in the `dist/` folder. (Our build script generates this alongside the CRX).
@@ -32,4 +32,4 @@ You will need to provide:
 2. Google’s team will review the code and listing (usually takes 1-3 days).
 3. Once approved, your extension will be live, and you will get a permanent link (e.g., `https://chromewebstore.google.com/detail/wikilink-helper/...`).
 
-- **ID Synchronization**: We have added the `key` field to `manifest.json`. This ensures that the local "unpacked" extension and the Web Store version share the same Extension ID. This is critical for consistent settings and storage.
+- **File IDs**: Note that the local "unpacked" extension and the Web Store version will have different IDs. This is standard behavior. If you need a fixed ID for development, we recommend using the signed `.crx` file produced by the `build.cmd` script.

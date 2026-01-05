@@ -102,8 +102,6 @@ To build the extension locally (generates `.crx` and `.zip` in `dist/`):
 
 See [PUBLISHING.md](docs/PUBLISHING.md) for instructions on how to publish to the Chrome Web Store.
 
-**Official Extension ID**: `mekebojdkoolcckoibjanfhfckknklhm`
-
 ## License
 MIT License. See LICENSE file for details.
 
